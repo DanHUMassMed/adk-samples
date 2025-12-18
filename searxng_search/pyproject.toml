@@ -1,0 +1,17 @@
+[project]
+name = "searngx_search"
+version = "0.1.0"
+description = "Agent can help users search for information on the web."
+authors = [
+    { name = "Dan Higgins", email = "dphiggins@gmail.com" },
+]
+license = "Apache License 2.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-adk>=1.11.0",
+    "httpx>=0.28.1",
+    "litellm>=1.80.10",
+    "mcp[cli]>=1.13.0",
+]
+

@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+# uv specific
+.uv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+.tox/
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.nox/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Explicitly requested
+.env
+
+.DS_Store 
+.adk/
