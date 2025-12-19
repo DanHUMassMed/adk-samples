@@ -9,6 +9,7 @@ dependencies = [
     "google-genai>=1.17.0",
     "python-dotenv>=1.1.0",
     "fastmcp==2.11.3",
+    "litellm>=1.80.10",
 ]
 
 [tool.agent-starter-pack.settings]
