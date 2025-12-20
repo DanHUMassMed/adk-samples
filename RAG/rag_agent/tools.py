@@ -50,7 +50,7 @@ def ask_chromadb(query_text: str) -> List[str]:
     formatted_results = []
     for doc, meta in zip(results['documents'][0], results['metadatas'][0]):
         formatted_results.append(
-            f"Source: {meta['source']} (Chunk ID: {meta['chunk_id']})\nContent: {doc}\n---"
+            f"Source: {meta['source']} (Page Number: {meta['page_number']})\nContent: {doc}\n---"
         )
 
     # Return a list of strings for the LLM to use as context
