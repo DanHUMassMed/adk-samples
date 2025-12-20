@@ -90,9 +90,8 @@ async def run_multi_turn_test(client: A2AClient) -> None:
     print_json_response(first_turn_response, "📥 Multi-Turn: First Turn Response")
 
     context_id: str | None = None
-    if isinstance(first_turn_response.root, SendMessageSuccessResponse) and isinstance(
-        first_turn_response.root.result, Task
-    ):
+    if isinstance(first_turn_response.root, SendMessageSuccessResponse) and 
+       isinstance(first_turn_response.root.result, Task):
         task: Task = first_turn_response.root.result
         context_id = task.context_id  # Capture context ID
 

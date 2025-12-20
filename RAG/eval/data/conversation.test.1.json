@@ -1,0 +1,31 @@
+[
+  {
+    "query": "Hi there, I have some questions about the Alphabet 10-K report.",
+    "expected_tool_use": [],
+    "reference": "Hello! I can help with that. What would you like to know based on the Alphabet 10-K for the fiscal year ended December 31, 2024?"
+  },
+  {
+    "query": "According to the MD&A, how might the increasing proportion of revenues derived from non-advertising sources like Google Cloud and devices potentially impact Alphabet's overall operating margin, and why?",
+    "expected_tool_use": [
+      {
+        "tool_name": "retrieve_rag_documentation",
+        "tool_input": {
+          "query": "How does the growth of non-advertising revenue affect Alphabet's margins?"
+        }
+      }
+    ],
+    "reference": "The report states that revenues from cloud, consumer subscriptions, platforms, and devices are increasing. It notes that the margins on these revenues vary significantly and are generally lower than advertising margins. Specifically, device sales adversely affect consolidated margins due to pricing pressure and higher cost of sales. Therefore, this trend may exert downward pressure on the overall operating margin. [Citation: Based on Alphabet 10-K for FYE Dec 31, 2024, Item 7]"
+  },
+  {
+    "query": "The report mentions significant investments in AI. What specific connection is drawn between these AI investments and the company's expectations regarding future capital expenditures?",
+    "expected_tool_use": [
+      {
+        "tool_name": "retrieve_rag_documentation",
+        "tool_input": {
+          "query": "Relationship between Alphabet's AI strategy and capital expenditure forecasts"
+        }
+      }
+    ],
+    "reference": "The report explicitly states an expectation that capital expenditures will increase, including expected spend and increased technical infrastructure investment, *in particular* to support AI products and services. [Citation: Based on Alphabet 10-K for FYE Dec 31, 2024, Item 7 & Note About Forward-Looking Statements]"
+  }
+]
