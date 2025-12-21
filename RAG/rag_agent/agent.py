@@ -7,6 +7,7 @@ from openinference.instrumentation import using_session
 import uuid
 from .tracing import instrument_adk_with_phoenix
 
+# Run Phoenix UI: phoenix serve
 _ = instrument_adk_with_phoenix()
 
 with using_session(session_id=uuid.uuid4()):
