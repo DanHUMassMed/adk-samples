@@ -1,0 +1,100 @@
+{
+  "eval_set_id": "evalset17d8cd",
+  "name": "evalset17d8cd",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "case40b70f",
+      "conversation": [
+        {
+          "invocation_id": "e-fcbabfee-4104-437a-92c0-962c93d78833",
+          "user_content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "what is 1,111 + 2,222",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "Exactly – the calculation checks out:\n\n\\[\n1111 + 2222 = 3333\n\\]\n\nThe Python snippets you ran correctly produced the expected result. If you’d like to wrap it in a reusable function or test it further, let me know!",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": [
+              [
+                "code_assistant",
+                [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "The answer is straightforward:\n\n```\n1,111 + 2,222 = 3,333\n```\n\nHere’s a tiny Python snippet you can run to double‑check the computation:\n\n",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null
+                  }
+                ]
+              ],
+              [
+                "code_assistant",
+                [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "Great! The result is correct.\n\n",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null
+                  }
+                ]
+              ]
+            ]
+          },
+          "creation_timestamp": 1766421303.312253
+        }
+      ],
+      "session_input": {
+        "app_name": "unsafe_agent",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1766421460.501027
+    }
+  ],
+  "creation_timestamp": 1766421451.3750951
+}

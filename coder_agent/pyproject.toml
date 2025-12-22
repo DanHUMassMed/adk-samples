@@ -1,0 +1,13 @@
+[project]
+name = "coder-agent"
+version = "0.1.0"
+description = "Simple Code execution Agent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk[a2a,eval]==1.13.0",
+    "google-genai>=1.17.0",
+    "python-dotenv>=1.1.0",
+    "litellm>=1.80.10",
+]
+
