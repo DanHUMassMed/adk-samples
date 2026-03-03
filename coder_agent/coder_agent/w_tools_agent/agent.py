@@ -5,7 +5,7 @@ from google.adk.models.lite_llm import LiteLlm
 from .tools import local_python_executor
 
 # 2. Configure the LiteLLM Model
-model = LiteLlm(model="openai/nemotron-3-nano:latest",
+model = LiteLlm(model="openai/qwen3-coder:30b",
                 api_base="http://localhost:11434/v1", 
                 api_key="my_api_key")
 
